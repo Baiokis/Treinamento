@@ -18,7 +18,7 @@ train_command = [
     "--epochs", str(HYPERPARAMETERS["epochs"]),
     "--data", DATA_YAML_PATH,
     "--weights", "",  # Treinamento do zero
-    "--cfg", os.path.join(YOLOV5_DIR, "models", "yolov5s.yaml")  # Configuração do modelo
+    "--cfg", os.path.join(YOLOV5_DIR, "models", "yolov5s.yaml")
 ]
 
 
